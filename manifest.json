@@ -1,0 +1,21 @@
+{
+  "name": "百度&竞品一键切换",
+  "description": "百度和竞品之间一键切换，保留原query继续检索.",
+  "version": "1.0",
+  "permissions": [
+	"tabs", "http://www.baidu.com/*","http://www.so.com/*","http://www.sogou.com/*","http://www.google.com.hk/*"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "page_action": {
+      "default_icon": "baidu.png",
+      "default_name": "百度"
+   },
+  "options_page": "options.html",
+  "icons": {
+      "128": "logo.png"
+   },
+  "manifest_version": 2
+}
+
